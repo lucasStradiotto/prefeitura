@@ -1,0 +1,153 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// SweetAlert2
+@import "~sweetalert2/dist/sweetalert2.css";
+
+// Leaflet
+@import "~leaflet/dist/leaflet.css";
+
+/*CSS para impressão*/
+@media print {
+  .printImgRelatorio{
+    width: 50px;
+    height: 50px;
+  }
+
+  .noPrintBtn{
+    display: none;
+  }
+
+  .printHeaderFooter{
+    margin-top: 5%;
+  }
+
+  th{
+    font-size: 120%;
+    font-weight: bold;
+    padding-left: 2%;
+  }
+
+  td{
+    padding-left: 2%;
+  }
+
+  .printTable{
+    margin-top: 1%;
+    width: 70%;
+  }
+
+  .printDiv{
+    padding-left: 14%;
+  }
+
+  .printTextServicos{
+    margin-top: 10%;
+    width: 70%;
+    text-align: center;
+  }
+
+  .printImg {
+    width: 5cm;
+    height: 5cm;
+    margin-top: 1cm;
+  }
+
+
+  .printNomeDoc {
+    margin-top: 1cm;
+  }
+
+  .printText {
+    margin-top: 1cm;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    font-size: 20px;
+  }
+
+  .printTextHabitese {
+    margin-top: 1cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    font-size: 15px;
+  }
+
+  .printTextCerCon {
+    margin-top: 1cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    font-size: 15px;
+  }
+
+  .printDate {
+    margin-top: 3cm;
+  }
+
+  .printDateCerCon {
+    margin-top: 1cm;
+  }
+
+  .printDateHabitese {
+    margin-top: 2cm;
+  }
+
+  .printFooter {
+    margin-top: 2cm;
+  }
+
+  .printFooterHabitese {
+    margin-top: 2cm;
+  }
+  //FIM DO MEDIA PRINT
+}
+
+.printImg {
+  width: 5cm;
+  height: 5cm;
+  margin-top: 1cm;
+}
+
+.imgRelatorio{
+  width: 100px;
+  height: 100px;
+}
+
+.nice-bar {
+  background: #a2d3d3;
+  border-top-left-radius: 0.9em;
+  border-top-right-radius: 0.9em;
+  height: 65px;
+}
+.navbar-static-top {
+  border-radius: 0;
+}
+
+.non-button>li>a:hover {
+  background: none;
+}
+
+.non-button>li>a:hover {
+  background: none;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  background-color: #eee;
+}
+
+.link-bar a:hover {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+body{
+  margin: 10px;
+}
